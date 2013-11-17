@@ -1,18 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Player/UserInput.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../unity-rts-demo/RTS Tutorial/Assets/Player/HUD/HUD.cs">
     <Files>
-      <File FileName="Assets/WorldObject/WorldObject.cs" Line="39" Column="3" />
-      <File FileName="Assets/Player/HUD/HUD.cs" Line="28" Column="3" />
-      <File FileName="Assets/Player/Player.cs" Line="12" Column="39" />
-      <File FileName="Assets/Player/UserInput.cs" Line="112" Column="18" />
-      <File FileName="Assets/WorldObject/Building/Building.cs" Line="20" Column="3" />
+      <File FileName="../../unity-rts-demo/RTS Tutorial/Assets/Player/HUD/HUD.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/stevehorn/Repository/spike/unity-tutorial/project/Assets/Player/UserInput.cs" line="47" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

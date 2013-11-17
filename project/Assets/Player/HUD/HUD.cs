@@ -34,8 +34,7 @@ public class HUD : MonoBehaviour {
 	    GUI.skin = ordersSkin;
 	    GUI.BeginGroup(new Rect(Screen.width-ORDERS_BAR_WIDTH,RESOURCE_BAR_HEIGHT,ORDERS_BAR_WIDTH,Screen.height-RESOURCE_BAR_HEIGHT));
 	    GUI.Box(new Rect(0,0,ORDERS_BAR_WIDTH,Screen.height-RESOURCE_BAR_HEIGHT),"");
-	    GUI.EndGroup();
-
+	    
 		string selectionName = "";
 		if(player.SelectedObject) {
 			selectionName = player.SelectedObject.objectName;
@@ -43,6 +42,8 @@ public class HUD : MonoBehaviour {
 		if(!selectionName.Equals("")) {
 			GUI.Label(new Rect(0,10,ORDERS_BAR_WIDTH,SELECTION_NAME_HEIGHT), selectionName);
 		}
+
+		GUI.EndGroup();
 	}
 	
 	private void DrawResourceBar() {
